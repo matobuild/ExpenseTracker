@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48391E6428B9EFAC00CCC1E4 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 48391E6328B9EFAC00CCC1E4 /* SwiftUIFontIcon */; };
+		48391E6628B9F11400CCC1E4 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48391E6528B9F11400CCC1E4 /* TransactionListViewModel.swift */; };
+		48391E6828BA142400CCC1E4 /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48391E6728BA142400CCC1E4 /* RecentTransactionList.swift */; };
 		4866FCD528B8BDD400A7B5BB /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866FCD428B8BDD400A7B5BB /* ExpenseTrackerApp.swift */; };
 		4866FCD728B8BDD400A7B5BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866FCD628B8BDD400A7B5BB /* ContentView.swift */; };
 		4866FCD928B8BDD600A7B5BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4866FCD828B8BDD600A7B5BB /* Assets.xcassets */; };
 		4866FCDC28B8BDD600A7B5BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4866FCDB28B8BDD600A7B5BB /* Preview Assets.xcassets */; };
 		4866FCE328B9019900A7B5BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866FCE228B9019900A7B5BB /* Extensions.swift */; };
+		48715A4528BA7E3F004A1A74 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48715A4428BA7E3F004A1A74 /* TransactionList.swift */; };
+		48715A4828BA86FF004A1A74 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 48715A4728BA86FF004A1A74 /* Collections */; };
+		488FB6CE28B90A4700038C9E /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FB6CD28B90A4600038C9E /* TransactionModel.swift */; };
+		488FB6D028B90C8400038C9E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FB6CF28B90C8400038C9E /* PreviewData.swift */; };
+		488FB6D228B90EBA00038C9E /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FB6D128B90EBA00038C9E /* TransactionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48391E6528B9F11400CCC1E4 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		48391E6728BA142400CCC1E4 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		4866FCD128B8BDD400A7B5BB /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4866FCD428B8BDD400A7B5BB /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
 		4866FCD628B8BDD400A7B5BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4866FCD828B8BDD600A7B5BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4866FCDB28B8BDD600A7B5BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4866FCE228B9019900A7B5BB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		48715A4428BA7E3F004A1A74 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		488FB6CD28B90A4600038C9E /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		488FB6CF28B90C8400038C9E /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		488FB6D128B90EBA00038C9E /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48715A4828BA86FF004A1A74 /* Collections in Frameworks */,
+				48391E6428B9EFAC00CCC1E4 /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +71,11 @@
 			children = (
 				4866FCD428B8BDD400A7B5BB /* ExpenseTrackerApp.swift */,
 				4866FCD628B8BDD400A7B5BB /* ContentView.swift */,
+				48391E6728BA142400CCC1E4 /* RecentTransactionList.swift */,
+				488FB6D128B90EBA00038C9E /* TransactionRow.swift */,
+				48391E6528B9F11400CCC1E4 /* TransactionListViewModel.swift */,
+				48715A4428BA7E3F004A1A74 /* TransactionList.swift */,
+				488FB6CD28B90A4600038C9E /* TransactionModel.swift */,
 				4866FCE228B9019900A7B5BB /* Extensions.swift */,
 				4866FCD828B8BDD600A7B5BB /* Assets.xcassets */,
 				4866FCDA28B8BDD600A7B5BB /* Preview Content */,
@@ -66,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				4866FCDB28B8BDD600A7B5BB /* Preview Assets.xcassets */,
+				488FB6CF28B90C8400038C9E /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -86,6 +108,10 @@
 			dependencies = (
 			);
 			name = ExpenseTracker;
+			packageProductDependencies = (
+				48391E6328B9EFAC00CCC1E4 /* SwiftUIFontIcon */,
+				48715A4728BA86FF004A1A74 /* Collections */,
+			);
 			productName = ExpenseTracker;
 			productReference = 4866FCD128B8BDD400A7B5BB /* ExpenseTracker.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +140,10 @@
 				Base,
 			);
 			mainGroup = 4866FCC828B8BDD400A7B5BB;
+			packageReferences = (
+				48391E6228B9EFAC00CCC1E4 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				48715A4628BA86FF004A1A74 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
 			productRefGroup = 4866FCD228B8BDD400A7B5BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,8 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488FB6D028B90C8400038C9E /* PreviewData.swift in Sources */,
+				48715A4528BA7E3F004A1A74 /* TransactionList.swift in Sources */,
+				48391E6828BA142400CCC1E4 /* RecentTransactionList.swift in Sources */,
+				488FB6CE28B90A4700038C9E /* TransactionModel.swift in Sources */,
 				4866FCD728B8BDD400A7B5BB /* ContentView.swift in Sources */,
+				488FB6D228B90EBA00038C9E /* TransactionRow.swift in Sources */,
 				4866FCE328B9019900A7B5BB /* Extensions.swift in Sources */,
+				48391E6628B9F11400CCC1E4 /* TransactionListViewModel.swift in Sources */,
 				4866FCD528B8BDD400A7B5BB /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +379,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		48391E6228B9EFAC00CCC1E4 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		48715A4628BA86FF004A1A74 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		48391E6328B9EFAC00CCC1E4 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48391E6228B9EFAC00CCC1E4 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		48715A4728BA86FF004A1A74 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48715A4628BA86FF004A1A74 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4866FCC928B8BDD400A7B5BB /* Project object */;
 }
