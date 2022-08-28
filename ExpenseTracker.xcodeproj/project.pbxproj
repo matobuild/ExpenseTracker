@@ -17,6 +17,7 @@
 		4866FCE328B9019900A7B5BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4866FCE228B9019900A7B5BB /* Extensions.swift */; };
 		48715A4528BA7E3F004A1A74 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48715A4428BA7E3F004A1A74 /* TransactionList.swift */; };
 		48715A4828BA86FF004A1A74 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 48715A4728BA86FF004A1A74 /* Collections */; };
+		48715A4B28BA8A77004A1A74 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 48715A4A28BA8A77004A1A74 /* SwiftUICharts */; };
 		488FB6CE28B90A4700038C9E /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FB6CD28B90A4600038C9E /* TransactionModel.swift */; };
 		488FB6D028B90C8400038C9E /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FB6CF28B90C8400038C9E /* PreviewData.swift */; };
 		488FB6D228B90EBA00038C9E /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488FB6D128B90EBA00038C9E /* TransactionRow.swift */; };
@@ -42,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48715A4B28BA8A77004A1A74 /* SwiftUICharts in Frameworks */,
 				48715A4828BA86FF004A1A74 /* Collections in Frameworks */,
 				48391E6428B9EFAC00CCC1E4 /* SwiftUIFontIcon in Frameworks */,
 			);
@@ -111,6 +113,7 @@
 			packageProductDependencies = (
 				48391E6328B9EFAC00CCC1E4 /* SwiftUIFontIcon */,
 				48715A4728BA86FF004A1A74 /* Collections */,
+				48715A4A28BA8A77004A1A74 /* SwiftUICharts */,
 			);
 			productName = ExpenseTracker;
 			productReference = 4866FCD128B8BDD400A7B5BB /* ExpenseTracker.app */;
@@ -143,6 +146,7 @@
 			packageReferences = (
 				48391E6228B9EFAC00CCC1E4 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
 				48715A4628BA86FF004A1A74 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				48715A4928BA8A77004A1A74 /* XCRemoteSwiftPackageReference "ChartView" */,
 			);
 			productRefGroup = 4866FCD228B8BDD400A7B5BB /* Products */;
 			projectDirPath = "";
@@ -397,6 +401,14 @@
 				minimumVersion = 1.0.2;
 			};
 		};
+		48715A4928BA8A77004A1A74 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -409,6 +421,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 48715A4628BA86FF004A1A74 /* XCRemoteSwiftPackageReference "swift-collections" */;
 			productName = Collections;
+		};
+		48715A4A28BA8A77004A1A74 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 48715A4928BA8A77004A1A74 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
